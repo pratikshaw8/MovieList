@@ -1,0 +1,18 @@
+nav {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+
+
+.flex-container{
+    display: flex;
+    margin: auto;
+    width: 15%;
+    height: 10vh;
+}
+
+#logo{
+    height: 70px;
+}

@@ -1,0 +1,6 @@
+<h2 class="heading">MOVIES</h2>
+
+
+<div id="list" *ngFor="let movie of list">
+    <app-card [movie]="movie" [posterPath]="movie.poster_path"></app-card>
+</div>
